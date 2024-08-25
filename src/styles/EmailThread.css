@@ -1,0 +1,10 @@
+.email-thread h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.email-thread p {
+  white-space: pre-wrap;
+  line-height: 1.5;
+  color: #555;
+}

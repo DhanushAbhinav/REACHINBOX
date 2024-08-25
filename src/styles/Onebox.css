@@ -1,0 +1,33 @@
+.onebox-container {
+  display: flex;
+  height: 100vh;
+}
+
+.email-list {
+  width: 300px;
+  background-color: #333;
+  color: white;
+  overflow-y: auto;
+}
+
+.email-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #444;
+  transition: background-color 0.3s;
+}
+
+.email-item:hover {
+  background-color: #444;
+}
+
+.email-item.selected {
+  background-color: #555;
+}
+
+.email-thread {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: white;
+  overflow-y: auto;
+}
